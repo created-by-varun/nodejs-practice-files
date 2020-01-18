@@ -4,7 +4,7 @@ const square = {
 }
 
 const calculatesquare = (a) => {
-    console.log(`the value of a is ${a}` + square.area(a) );
+    console.log(`the value of a is ${a} and the area is ` + square.area(a) );
 }
 
 calculatesquare(5);
